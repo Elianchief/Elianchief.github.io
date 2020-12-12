@@ -87,7 +87,7 @@ body {
 .sticky {
   position: sticky;
   width: 100%;
-  background-size: cover;
+ background-color: white;
 }
 
 .sticky-var {
@@ -152,4 +152,30 @@ body {
 .donations {
   position: absolute;
   font-family: "Montserrat";
+}
+
+
+.flex-nav{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border: solid 2px white;  
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.flex-inside{
+  display: flex;
+  width: 50%;
+  height: 40px;
+  border: white solid 2px;
+  gap: 5%;
+}
+
+#op-var{
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-right: 10px;
 }
